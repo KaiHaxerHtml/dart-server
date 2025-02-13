@@ -1,6 +1,81 @@
-[23:31:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[23:31:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-150-main@46f4fda (2025-02-12T22:37:19Z) for Minecraft 1.21.4
-[23:31:36] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[23:31:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:31:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[23:31:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:45:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[23:45:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-150-main@46f4fda (2025-02-12T22:37:19Z) for Minecraft 1.21.4
+[23:45:25] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[23:45:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:45:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[23:45:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:45:29] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[23:45:29] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[23:45:29] [ServerMain/INFO]: No existing world data, creating new world
+[23:45:30] [ServerMain/INFO]: Loaded 1370 recipes
+[23:45:30] [ServerMain/INFO]: Loaded 1481 advancements
+[23:45:30] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[23:45:30] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 132.0ms
+[23:45:30] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[23:45:30] [Server thread/INFO]: Loading properties
+[23:45:30] [Server thread/INFO]: This server is running Paper version 1.21.4-150-main@46f4fda (2025-02-12T22:37:19Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[23:45:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:45:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:45:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:45:31] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[23:45:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:45:31] [Server thread/INFO]: Default game type: SURVIVAL
+[23:45:31] [Server thread/INFO]: Generating keypair
+[23:45:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:45:31] [Server thread/INFO]: Using default channel type
+[23:45:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:45:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:45:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:45:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:45:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:45:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:45:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:45:31] [Server thread/INFO]: Preparing level "mainsmp"
+[23:45:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:45:34] [Server thread/INFO]: Preparing spawn area: 2%
+[23:45:34] [Server thread/INFO]: Preparing spawn area: 12%
+[23:45:34] [Server thread/INFO]: Time elapsed: 905 ms
+[23:45:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:45:34] [Server thread/INFO]: Preparing spawn area: 2%
+[23:45:35] [Server thread/INFO]: Time elapsed: 209 ms
+[23:45:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:45:35] [Server thread/INFO]: Preparing spawn area: 2%
+[23:45:35] [Server thread/INFO]: Time elapsed: 158 ms
+[23:45:35] [Server thread/INFO]: [spark] Starting background profiler...
+[23:45:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[23:45:35] [Server thread/INFO]: Done preparing level "mainsmp" (3.993s)
+[23:45:35] [Server thread/INFO]: Running delayed init tasks
+[23:45:35] [Server thread/INFO]: Done (10.690s)! For help, type "help"
+[23:45:47] [Server thread/INFO]: Stopping the server
+[23:45:47] [Server thread/INFO]: Stopping server
+[23:45:47] [Server thread/INFO]: Saving players
+[23:45:47] [Server thread/INFO]: Saving worlds
+[23:45:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp]'/minecraft:overworld
+[23:45:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp'
+[23:45:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp'
+[23:45:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'mainsmp' in 0.32s
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp'
+[23:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp_nether]'/minecraft:the_nether
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp_nether'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp_nether'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp_nether'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'mainsmp_nether' in 0.11s
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp_nether'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp_nether'
+[23:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp_the_end]'/minecraft:the_end
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp_the_end'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp_the_end'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp_the_end'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'mainsmp_the_end' in 0.11s
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp_the_end'
+[23:45:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp_the_end'
+[23:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (mainsmp): All chunks are saved
+[23:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:45:48] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[23:45:48] [Server thread/INFO]: All I/O tasks to complete
+[23:45:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:45:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
