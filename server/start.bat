@@ -5,4 +5,5 @@ java -Xms4096M -Xmx4096M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+Paralle
 
 echo Server restarting...
 echo Press CTRL + C to stop.
+timeout 5
 goto :start
