@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.50.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739507150493
+  login: 1739506773540
+money: '0'
+last-account-name: KaiExtreme
+logoutlocation:
+  world: af9aa590-2a99-409f-b6c9-a750e41a416d
+  world-name: mainsmp
+  x: -22.694559368753126
+  y: 75.0
+  z: -247.56906813753827
+  yaw: 6.8525590896606445
+  pitch: 53.05664825439453

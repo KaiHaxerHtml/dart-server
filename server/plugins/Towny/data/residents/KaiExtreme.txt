@@ -1,5 +1,5 @@
-uuid=875b9544-c0b6-35b9-8f79-2a729153890f
-lastOnline=1739506184457
+uuid=1fdb4c7a-0869-43fd-96d8-ca24d9936fc0
+lastOnline=1739506773853
 registered=1739506169191
 joinedTownAt=0
 isNPC=false
