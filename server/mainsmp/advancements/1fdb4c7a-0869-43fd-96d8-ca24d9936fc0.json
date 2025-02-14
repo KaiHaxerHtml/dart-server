@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-13 20:39:19 -0700"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2025-02-13 20:39:19 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3839
+}
