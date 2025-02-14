@@ -13,21 +13,6 @@
 # Website: https://papermc.io/
 
 _version: 29
-anticheat:
-  obfuscation:
-    items:
-      all-models:
-        also-obfuscate: []
-        dont-obfuscate:
-        - minecraft:lodestone_tracker
-        sanitize-count: true
-      enable-item-obfuscation: false
-      model-overrides:
-        minecraft:elytra:
-          also-obfuscate: []
-          dont-obfuscate:
-          - minecraft:damage
-          sanitize-count: true
 block-updates:
   disable-chorus-plant-updates: false
   disable-mushroom-block-updates: false
@@ -49,6 +34,7 @@ collisions:
   enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
 commands:
+  fix-target-selector-tag-completion: true
   suggest-player-names-when-null-tab-completions: true
   time-command-affects-all-worlds: false
 console:
@@ -81,7 +67,6 @@ misc:
   chat-threads:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
-  client-interaction-leniency-distance: default
   compression-level: default
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
@@ -121,17 +106,25 @@ spam-limiter:
   recipe-spam-limit: 20
   tab-spam-increment: 1
   tab-spam-limit: 500
-spark:
-  enable-immediately: false
+timings:
   enabled: true
+  hidden-config-entries:
+  - database
+  - proxies.velocity.secret
+  history-interval: 300
+  history-length: 3600
+  server-name: Unknown Server
+  server-name-privacy: false
+  url: https://timings.aikar.co/
+  verbose: true
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
+  allow-tripwire-disarming-exploits: false
   allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
   perform-username-validation: true
-  skip-tripwire-hook-placement-validation: false
   skip-vanilla-damage-tick-when-shield-blocked: false
 watchdog:
   early-warning-delay: 10000

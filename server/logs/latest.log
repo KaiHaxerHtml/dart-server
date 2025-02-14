@@ -1,232 +1,63 @@
-[10:41:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[10:41:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-150-main@46f4fda (2025-02-12T22:37:19Z) for Minecraft 1.21.4
-[10:41:59] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[10:41:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:41:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\ExoticGarden - DEV 78 (git 7f9a5).jar'...
-[10:41:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\luckyblocks-sf - DEV 36 (git 60f0c).jar'...
-[10:41:59] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\Slimefun4-RC.jar'...
-[10:41:59] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\MobHunting-8.5.4.jar'...
-[10:42:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\luckyblocks-sf - DEV 36 (git 60f0c).jar' in 442ms.
-[10:42:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ExoticGarden - DEV 78 (git 7f9a5).jar' in 452ms.
-[10:42:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MobHunting-8.5.4.jar' in 570ms.
-[10:42:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Slimefun4-RC.jar' in 904ms.
-[10:42:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[10:42:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - Essentials (2.21.0-dev+167-4e64782), EssentialsChat (2.21.0-dev+167-4e64782), ExoticGarden (DEV - 78 (git 7f9a5f63)), MobHunting (8.5.4), Slimefun (RC - 37), SlimefunLuckyBlocks (DEV - 36 (git 60f0c8dc)), Towny (0.101.1.2)
-[10:42:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:42:03] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[10:42:03] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 150.8ms
-[10:42:05] [ServerMain/INFO]: Loaded 1377 recipes
-[10:42:05] [ServerMain/INFO]: Loaded 1544 advancements
-[10:42:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[10:42:05] [Server thread/INFO]: Loading properties
-[10:42:05] [Server thread/INFO]: This server is running Paper version 1.21.4-150-main@46f4fda (2025-02-12T22:37:19Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[10:42:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:42:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:42:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:42:06] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
-[10:42:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:42:06] [Server thread/INFO]: Default game type: SURVIVAL
-[10:42:06] [Server thread/INFO]: Generating keypair
-[10:42:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:42:06] [Server thread/INFO]: Using default channel type
-[10:42:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:42:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:42:06] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\.paper-remapped\MobHunting-8.5.4.jar' in 'plugins\.paper-remapped'
-org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CustomItemsLib]. Please download and install these plugins to run 'MobHunting'.
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:563) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:277) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[10:42:06] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vRC - 37
-[10:42:06] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
-[10:42:06] [Server thread/INFO]: [Towny] Loading server plugin Towny v0.101.1.2
-[10:42:06] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading server plugin SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[10:42:06] [Server thread/INFO]: [ExoticGarden] Loading server plugin ExoticGarden vDEV - 78 (git 7f9a5f63)
-[10:42:06] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+167-4e64782
-[10:42:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:42:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:42:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:42:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:42:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:42:06] [Server thread/INFO]: Preparing level "mainsmp"
-[10:42:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:42:07] [Server thread/INFO]: Preparing spawn area: 0%
-[10:42:07] [Server thread/INFO]: Time elapsed: 458 ms
-[10:42:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:42:07] [Server thread/INFO]: Preparing spawn area: 0%
-[10:42:07] [Server thread/INFO]: Time elapsed: 57 ms
-[10:42:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:42:07] [Server thread/INFO]: Preparing spawn area: 0%
-[10:42:07] [Server thread/INFO]: Time elapsed: 41 ms
-[10:42:07] [Server thread/INFO]: [Slimefun] Enabling Slimefun vRC - 37
-[10:42:07] [Server thread/ERROR]: [Slimefun] ****************************************************
-[10:42:07] [Server thread/ERROR]: [Slimefun] * Slimefun was not installed correctly!
-[10:42:07] [Server thread/ERROR]: [Slimefun] * You are using the wrong version of Minecraft!
-[10:42:07] [Server thread/ERROR]: [Slimefun] * 
-[10:42:07] [Server thread/ERROR]: [Slimefun] * You are using Minecraft 1.21.x
-[10:42:07] [Server thread/ERROR]: [Slimefun] * but Slimefun RC - 37 requires you to be using
-[10:42:07] [Server thread/ERROR]: [Slimefun] * Minecraft 1.16.x / 1.17.x / 1.18.x / 1.19.x / 1.20.x
-[10:42:07] [Server thread/ERROR]: [Slimefun] ****************************************************
-[10:42:07] [Server thread/INFO]: [Slimefun] Disabling Slimefun vRC - 37
-[10:42:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
-[10:42:07] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[10:42:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\config.yml
-[10:42:07] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[10:42:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\kits.yml
-[10:42:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:42:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:42:07] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[10:42:07] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[10:42:07] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[10:42:07] [Server thread/INFO]: [Essentials] Done converting random teleport config.
-[10:42:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\worth.yml
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[10:42:08] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\tpr.yml
-[10:42:08] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[10:42:08] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\custom_items.yml
-[10:42:08] [Server thread/INFO]: [Essentials] Using locale en_US
-[10:42:08] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:42:08] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:42:08] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[10:42:08] [Server thread/INFO]: [Towny] Enabling Towny v0.101.1.2
-[10:42:08] [Server thread/INFO]: ====================      Towny      ========================
-[10:42:08] [Server thread/INFO]: [Towny] Successfully loaded translations for 43 languages.
-[10:42:08] [Server thread/INFO]: [Towny] Config: Loaded 9 townblock types: shop, inn, arena, jail, default, bank, wilds, farm, embassy.
-[10:42:08] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
-[10:42:08] [Server thread/INFO]: [Towny] Database: Loaded in 17ms.
-[10:42:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Cleaning up old backups...
-[10:42:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Could not delete old backups.
-[10:42:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Making backup...
-[10:42:08] [Folia Async Scheduler Thread #0/INFO]: [Towny] Time until a New Day: 1 hours, 17 minutes, 52 seconds
-[10:42:08] [Folia Async Scheduler Thread #1/INFO]: [Towny] Checking for updates...
-[10:42:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
-[10:42:08] [Server thread/INFO]: [Towny] Searching for third-party plugins...
-[10:42:08] [Server thread/INFO]: [Towny] Plugins found: 
-[10:42:08] [Server thread/INFO]: [Towny]   Permissions: TownyPerms, BukkitPermissions
-[10:42:08] [Server thread/INFO]: [Towny]   Warning: No compatible Economy plugins found. Install
-                           Vault.jar or Reserve.jar with any of the supported eco
-                           systems. If you do not want an economy to be used, set
-                           using_economy: false in your Towny config.yml.
-[10:42:08] [Server thread/INFO]: =============================================================
-[10:42:08] [Server thread/INFO]: [Towny] Version: 0.101.1.2 - Plugin Enabled
-[10:42:08] [Server thread/INFO]: =============================================================
-[10:42:08] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[10:42:08] [Server thread/ERROR]: Error occurred while enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc) (Is it up to date?)
-java.lang.NoClassDefFoundError: io/github/thebusybiscuit/slimefun4/libraries/dough/config/Config
-	at luckyblocks-sf - DEV 36 (git 60f0c).jar/io.github.thebusybiscuit.slimefunluckyblocks.SlimefunLuckyBlocks.onEnable(SlimefunLuckyBlocks.java:104) ~[luckyblocks-sf - DEV 36 (git 60f0c).jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	... 13 more
-[10:42:08] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[10:42:08] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[10:42:08] [Server thread/ERROR]: Error occurred while enabling ExoticGarden vDEV - 78 (git 7f9a5f63) (Is it up to date?)
-java.lang.NoClassDefFoundError: io/github/thebusybiscuit/slimefun4/libraries/paperlib/PaperLib
-	at ExoticGarden - DEV 78 (git 7f9a5).jar/io.github.thebusybiscuit.exoticgarden.ExoticGarden.onEnable(ExoticGarden.java:87) ~[ExoticGarden - DEV 78 (git 7f9a5).jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-150-46f4fda]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	... 13 more
-[10:42:08] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[10:42:08] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+167-4e64782
-[10:42:09] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[10:42:09] [Server thread/INFO]: [spark] Starting background profiler...
-[10:42:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[10:42:09] [Server thread/INFO]: Done preparing level "mainsmp" (2.590s)
-[10:42:09] [Server thread/INFO]: Running delayed init tasks
-[10:42:09] [Server thread/INFO]: Done (10.561s)! For help, type "help"
-[10:42:09] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[10:42:09] [Folia Async Scheduler Thread #1/INFO]: [Towny] No new updates found.
-[10:44:32] [Server thread/INFO]: Stopping the server
-[10:44:32] [Server thread/INFO]: Stopping server
-[10:44:32] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+167-4e64782
-[10:44:32] [Server thread/INFO]: [Towny] Disabling Towny v0.101.1.2
-[10:44:32] [Server thread/INFO]: ==============================================================
-[10:44:32] [Server thread/INFO]: [Towny] Finishing File IO Tasks...
-[10:44:32] [Server thread/INFO]: [Towny] Finishing Universe Tasks...
-[10:44:32] [Server thread/INFO]: [Towny] Version: 0.101.1.2 - Plugin Disabled
-[10:44:32] [Server thread/INFO]: =============================================================
-[10:44:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+167-4e64782
-[10:44:32] [Server thread/INFO]: Saving players
-[10:44:32] [Server thread/INFO]: Saving worlds
-[10:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp]'/minecraft:overworld
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saved 59 block chunks, 59 entity chunks, 0 poi chunks in world 'mainsmp' in 0.12s
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp'
-[10:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp_nether]'/minecraft:the_nether
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp_nether'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp_nether'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp_nether'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'mainsmp_nether' in 0.03s
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp_nether'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp_nether'
-[10:44:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mainsmp_the_end]'/minecraft:the_end
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'mainsmp_the_end'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'mainsmp_the_end'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'mainsmp_the_end'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'mainsmp_the_end' in 0.02s
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'mainsmp_the_end'
-[10:44:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'mainsmp_the_end'
-[10:44:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (mainsmp): All chunks are saved
-[10:44:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:44:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:44:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:44:32] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[10:44:32] [Server thread/INFO]: All I/O tasks to complete
-[10:44:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[10:44:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:25:30] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:25:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:25:32] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[20:25:32] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[20:25:33] [ServerMain/INFO]: No existing world data, creating new world
+[20:25:33] [ServerMain/INFO]: Loaded 1175 recipes
+[20:25:33] [ServerMain/INFO]: Loaded 1276 advancements
+[20:25:33] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[20:25:33] [Server thread/INFO]: Loading properties
+[20:25:33] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[20:25:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:25:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:25:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and gen parallelism of 8 threads
+[20:25:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:25:34] [Server thread/INFO]: Default game type: SURVIVAL
+[20:25:34] [Server thread/INFO]: Generating keypair
+[20:25:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:25:35] [Server thread/INFO]: Using default channel type
+[20:25:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:25:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:25:35] [Server thread/INFO]: Preparing level "world"
+[20:25:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:25:38] [Server thread/INFO]: Time elapsed: 1061 ms
+[20:25:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:25:38] [Server thread/INFO]: Time elapsed: 225 ms
+[20:25:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:25:38] [Server thread/INFO]: Time elapsed: 68 ms
+[20:25:38] [Server thread/INFO]: Running delayed init tasks
+[20:25:38] [Server thread/INFO]: Done (4.757s)! For help, type "help"
+[20:25:38] [Server thread/INFO]: *************************************************************************************
+[20:25:38] [Server thread/INFO]: This is the first time you're starting this server.
+[20:25:38] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[20:25:38] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[20:25:38] [Server thread/INFO]: *************************************************************************************
+[20:25:38] [Server thread/INFO]: Timings Reset
+[20:25:57] [Server thread/INFO]: Stopping the server
+[20:25:57] [Server thread/INFO]: Stopping server
+[20:25:57] [Server thread/INFO]: Saving players
+[20:25:57] [Server thread/INFO]: Saving worlds
+[20:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[20:25:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
+[20:25:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:25:57] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
+[20:25:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:25:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:25:57] [Server thread/INFO]: Flushing Chunk IO
+[20:25:57] [Server thread/INFO]: Closing Thread Pool
+[20:25:57] [Server thread/INFO]: Closing Server
