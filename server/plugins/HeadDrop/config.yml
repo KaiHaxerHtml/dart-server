@@ -6,9 +6,9 @@ Config:
   Update-Notify: true
   Require-Killer-Player: true
   Killer-Require-Permission: false
-  Enable-Looting: false
+  Enable-Looting: true
   Require-Axe: false
-  Baby-HeadDrop: false
+  Baby-HeadDrop: true
   Enable-Perm-Chance: false
   Nerf-Spawner: false
   Disable-Worlds:
