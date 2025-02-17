@@ -1,23 +1,37 @@
-14 Feb 2025 22:30:40 [Server thread]: Database: [Load] flatfile [Save] flatfile
-14 Feb 2025 22:30:40 [Server thread]: Database: Loaded in 36ms.
-14 Feb 2025 22:30:40 [ForkJoinPool.commonPool-worker-1]: Cleaning up old backups...
-14 Feb 2025 22:30:40 [ForkJoinPool.commonPool-worker-1]: Successfully cleaned backups.
-14 Feb 2025 22:30:40 [ForkJoinPool.commonPool-worker-1]: Making backup...
-14 Feb 2025 22:30:40 [Folia Async Scheduler Thread #0]: Time until a New Day: 13 hours, 29 minutes, 20 seconds
-14 Feb 2025 22:30:40 [Folia Async Scheduler Thread #1]: Checking for updates...
-14 Feb 2025 22:30:40 [ForkJoinPool.commonPool-worker-1]: Towny flatfiles and settings successfully backed up.
-14 Feb 2025 22:30:40 [Server thread]: Searching for third-party plugins...
-14 Feb 2025 22:30:40 [Server thread]: Plugins found: 
-14 Feb 2025 22:30:40 [Server thread]:   Permissions: TownyPerms, BukkitPermissions
-14 Feb 2025 22:30:40 [Server thread]:   Add-ons: TownyChat v0.117
-14 Feb 2025 22:30:40 [Server thread]:   Warning: No compatible Economy plugins found. Install
+14 Feb 2025 22:38:49 [Server thread]: Database: [Load] flatfile [Save] flatfile
+14 Feb 2025 22:38:49 [Server thread]: Database: Loaded in 22ms.
+14 Feb 2025 22:38:49 [ForkJoinPool.commonPool-worker-1]: Cleaning up old backups...
+14 Feb 2025 22:38:49 [ForkJoinPool.commonPool-worker-1]: Successfully cleaned backups.
+14 Feb 2025 22:38:49 [ForkJoinPool.commonPool-worker-1]: Making backup...
+14 Feb 2025 22:38:49 [Folia Async Scheduler Thread #0]: Time until a New Day: 13 hours, 21 minutes, 11 seconds
+14 Feb 2025 22:38:49 [Folia Async Scheduler Thread #1]: Checking for updates...
+14 Feb 2025 22:38:49 [ForkJoinPool.commonPool-worker-1]: Towny flatfiles and settings successfully backed up.
+14 Feb 2025 22:38:49 [Server thread]: Searching for third-party plugins...
+14 Feb 2025 22:38:49 [Server thread]: Plugins found: 
+14 Feb 2025 22:38:49 [Server thread]:   Permissions: TownyPerms, BukkitPermissions
+14 Feb 2025 22:38:49 [Server thread]:   Add-ons: TownyChat v0.117
+14 Feb 2025 22:38:49 [Server thread]:   Warning: No compatible Economy plugins found. Install
                            Vault.jar or Reserve.jar with any of the supported eco
                            systems. If you do not want an economy to be used, set
                            using_economy: false in your Towny config.yml.
-14 Feb 2025 22:30:40 [Server thread]: Version: 0.101.1.0 - Plugin Enabled
-14 Feb 2025 22:30:40 [Folia Async Scheduler Thread #1]: New update available: 0.101.1.2 | Current version: 0.101.1.0
-14 Feb 2025 22:30:40 [Folia Async Scheduler Thread #1]: Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.101.1.2
-14 Feb 2025 22:32:29 [Server thread]: Disabling Towny v0.101.1.0
-14 Feb 2025 22:32:29 [Server thread]: Finishing File IO Tasks...
-14 Feb 2025 22:32:29 [Server thread]: Finishing Universe Tasks...
-14 Feb 2025 22:32:29 [Server thread]: Version: 0.101.1.0 - Plugin Disabled
+14 Feb 2025 22:38:49 [Server thread]: Version: 0.101.1.0 - Plugin Enabled
+14 Feb 2025 22:38:49 [Folia Async Scheduler Thread #1]: New update available: 0.101.1.2 | Current version: 0.101.1.0
+14 Feb 2025 22:38:49 [Folia Async Scheduler Thread #1]: Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.101.1.2
+15 Feb 2025 11:59:57 [Folia Async Scheduler Thread Timer]: [Global Message] A new day is here!
+15 Feb 2025 11:59:57 [ForkJoinPool.commonPool-worker-32]: Cleaning up old backups...
+15 Feb 2025 11:59:57 [Folia Async Scheduler Thread Timer]: Towny DailyTimerTask took 2ms to process.
+15 Feb 2025 11:59:57 [ForkJoinPool.commonPool-worker-32]: Successfully cleaned backups.
+15 Feb 2025 11:59:57 [ForkJoinPool.commonPool-worker-32]: Making backup...
+15 Feb 2025 11:59:57 [ForkJoinPool.commonPool-worker-32]: Towny flatfiles and settings successfully backed up.
+15 Feb 2025 12:00:57 [Server thread]: Time until a New Day: 23 hours, 59 minutes, 3 seconds
+16 Feb 2025 11:59:58 [Folia Async Scheduler Thread Timer]: [Global Message] A new day is here!
+16 Feb 2025 11:59:58 [ForkJoinPool.commonPool-worker-34]: Cleaning up old backups...
+16 Feb 2025 11:59:58 [Folia Async Scheduler Thread Timer]: Towny DailyTimerTask took 0ms to process.
+16 Feb 2025 11:59:58 [ForkJoinPool.commonPool-worker-34]: Successfully cleaned backups.
+16 Feb 2025 11:59:58 [ForkJoinPool.commonPool-worker-34]: Making backup...
+16 Feb 2025 11:59:58 [ForkJoinPool.commonPool-worker-34]: Towny flatfiles and settings successfully backed up.
+16 Feb 2025 12:00:58 [Server thread]: Time until a New Day: 23 hours, 59 minutes, 2 seconds
+16 Feb 2025 17:36:04 [Server thread]: Disabling Towny v0.101.1.0
+16 Feb 2025 17:36:04 [Server thread]: Finishing File IO Tasks...
+16 Feb 2025 17:36:04 [Server thread]: Finishing Universe Tasks...
+16 Feb 2025 17:36:04 [Server thread]: Version: 0.101.1.0 - Plugin Disabled
